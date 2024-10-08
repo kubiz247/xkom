@@ -1,3 +1,8 @@
+.ogolny{
+    background-image: url("https://img.redro.pl/plakaty/tlo-pizza-pepperoni-odwiedz-moja-strone-bedziesz-mogl-znalezc-obraz-dla-kazdej-pizzy-sprzedawanej-w-kawiarni-lub-restauracji-400-95977816.jpg");
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,0.3);
+}
 .App{
     font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,
     BlinkMacSystemFont,Helvetica Neue,Arial,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
@@ -51,6 +56,12 @@
     cursor: pointer;
     background-color: #389660;
     color: white;
+}
+.dodaj-btn:hover{
+    opacity: 0.6;
+}
+.edytuj-btn:hover{
+    opacity: 0.6;
 }
 .edytuj-btn{
     padding: 10px 15px;

@@ -31,6 +31,7 @@ function Pizza({ name, imgSrc, ingredients }) {
 
 function App() {
     return (
+      <div className="ogolny">
         <div className="App">
             <Pizza
                 name="1. Margherita"
@@ -63,6 +64,7 @@ function App() {
                 ingredients="ciasto, sos pomidorowy, ser, szynka, kiełbasa, kabanosy, cebula biała, papryka świeża, oregano"
             />
         </div>
+      </div>
     );
 }
 
